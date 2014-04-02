@@ -4,9 +4,9 @@ Sending SMS via the Nexmo SMS gateway.
 Installation
 ------------
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    [user@project_path]\$ composer require crboy/nexmo-php-lib
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[user@project_path]\$ composer require crboy/nexmo-php-lib
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quick Examples
 --------------
@@ -59,9 +59,9 @@ Most Frequent Issues
 This is usually due to your webserver unable to send a request to Nexmo. Make
 sure the following are met:
 
-1. Either CURL is enabled for your PHP installation or the PHP option 'allow_url_fopen' is set to 1 (default).
+1.  Either CURL is enabled for your PHP installation or the PHP option 'allow_url_fopen' is set to 1 (default).
 
-2. You have no firewalls blocking access to rest.nexmo.com/sms/json on port 443.
+2.  You have no firewalls blocking access to rest.nexmo.com/sms/json on port 443.
 
 ### Your message appears to have been sent but you do not recieve it.
 
